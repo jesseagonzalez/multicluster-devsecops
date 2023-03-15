@@ -1,6 +1,9 @@
 cloudProvider:
   storageClass: nutanix-volume
 
+clusterGroup:
+  storageClass: nutanix-volume
+
 global:
   quay:
     #server_hostname: quay.ocpnvd.dachlab.net
