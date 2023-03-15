@@ -8,4 +8,5 @@ vault.init
 *.vscode
 super-linter.log
 /archive
+.hidden
 
