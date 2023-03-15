@@ -18,12 +18,14 @@ clusterGroup:
     rhacs-operator:
       name: rhacs-operator  #packageName
       namespace: openshift-operators # operator namespace
-      channel: rhacs-3.71
+      #channel: rhacs-3.71
+      channel: rhacs-3.73
 
     quay-bridge-operator:
       name: quay-bridge-operator
       namespace: openshift-operators
-      channel: stable-3.7
+      #channel: stable-3.7
+      channel: stable-3.8
 
   projects:
     - app

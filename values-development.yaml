@@ -45,17 +45,21 @@ clusterGroup:
     rhacs-operator:
       name: rhacs-operator  #packageName
       namespace: openshift-operators # operator namespace
-      channel: rhacs-3.71
+      #channel: rhacs-3.71
+      channel: rhacs-3.73
 
     openshift-pipelines:
       name: openshift-pipelines-operator-rh
       namespace: openshift-operators
-      channel: pipelines-1.7
+      #channel: pipelines-1.7
+      channel: pipelines-1.8
 
     quay-bridge-operator:
       name: quay-bridge-operator
       namespace: openshift-operators
-      channel: stable-3.7
+      #channel: stable-3.7
+      channel: stable-3.8
+
 
   projects:
     - secured
