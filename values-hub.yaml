@@ -135,7 +135,8 @@ clusterGroup:
     jobs:
     - name: regional-ca
       # ansible playbook to be run
-      playbook: ansible/playbooks/on-hub-get-regional-ca.yml
+      #playbook: ansible/playbooks/on-hub-get-regional-ca.yml
+      playbook: ansible/playbooks/acm/acmhub-get-ca.yaml
       # per playbook timeout in seconds
       timeout: 234
       # verbosity: "-v"
