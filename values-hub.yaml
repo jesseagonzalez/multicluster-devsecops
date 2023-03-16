@@ -145,7 +145,7 @@ clusterGroup:
 
 # This section is used by ACM
   managedClusterGroups:
-  - name: development
+  - name: develop
     helmOverrides:
     - name: clusterGroup.isHubCluster
       value: "false"
